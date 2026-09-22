@@ -14,6 +14,10 @@ Open in Safari (iPhone) or Chrome (Android), add to the home screen, and open th
 
 Text and audio timings are a review edition. Chapters 1–10 include optional Malayalam and English explanatory drafts; later meanings are not yet included.
 
+## Opening prayers
+
+Dasakam 1 includes eight selectable opening prayers, transcribed from NAr-introverse.pdf and synchronized to Track00. These appear before the ten numbered verses. Only prayers present in the recorded opening are timed. The supplied single text uses the full reading width in every viewing mode.
+
 ## Hosting and storage
 
 Static GitHub Pages site, served from the main branch root. No sign-in, third-party scripts or listener analytics. Reading preferences and complete downloaded audio files stay on the device. A service worker caches text and supplies byte-range responses for offline audio seeking. Browser storage may be cleared under storage pressure.

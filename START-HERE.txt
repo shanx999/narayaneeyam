@@ -15,3 +15,6 @@ A ZIP opened in the phone's Files/Drive app does not install this player. Use th
 Original, Recital aid, and Both use the same audio timings. Turn the phone sideways for two columns; portrait mode stacks the paired lines for readability. A+ and A- adjust the font. Tap any line to replay it.
 
 Text and alignment are a review edition. Please identify chapter and verse when reporting corrections. Meanings are explanatory drafts; available chapters are labelled in the player.
+
+DASAKAM 1 OPENING PRAYERS
+Play from the beginning to follow the eight opening prayers, or choose Opening prayer 1–8 in the Verse menu. Next and Previous move between prayers and the numbered verses. The supplied prayer text uses one full-width column in every reading view. Verse 1 begins around 1:15, as before.
