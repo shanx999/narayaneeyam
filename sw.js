@@ -1,5 +1,5 @@
 'use strict';
-const SHELL='narayaneeyam-shell-20260922-1',AUDIO='narayaneeyam-audio-v1';
+const SHELL='narayaneeyam-shell-20260922-2',AUDIO='narayaneeyam-audio-v1';
 const BASE=new URL('./',self.location.href).href;
 const ASSETS=['./','index.html','style.css','app.js','manifest.webmanifest','catalog.json','START-HERE.txt','completeness.html','assets/portrait.png','assets/malayalam.ttf','assets/icon.svg','assets/icon-192.png','assets/icon-512.png',...Array.from({length:42},(_,i)=>'chapters/'+String(i+1).padStart(2,'0')+'.json')];
 self.addEventListener('install',event=>event.waitUntil((async()=>{const c=await caches.open(SHELL);await c.addAll(ASSETS.map(p=>new URL(p,BASE).href));await self.skipWaiting()})()));
