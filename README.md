@@ -10,7 +10,7 @@ Open in Safari (iPhone) or Chrome (Android), add to the home screen, and open th
 
 ## Completeness
 
-42 recordings and 436 verse entries. The scans cover both paragraphs for 432 verses. Printed page 102 is missing: Dasakam 40, verses 1–4 show reference original text until that recital-aid scan is supplied. All overlapping verses appear once. One identical PDF duplicate was excluded. See completeness.html.
+42 recordings and 436 verse entries. The scans cover both paragraphs for all 436 verses. The supplementary NAR-pg102.pdf completes Dasakam 40, verses 1–4; both paragraphs were visually proofread and matched to the existing recording. All overlapping verses appear once. One identical PDF duplicate was excluded. See completeness.html.
 
 Text and audio timings are a review edition. Chapters 1–10 include optional Malayalam and English explanatory drafts; later meanings are not yet included.
 

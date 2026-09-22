@@ -359,12 +359,7 @@
       "audio_bytes": 2585205,
       "audio_sha256": "412d7ec5ec6b55e27d360621a1ebda8de99b51da6982f4dd5bd8e5450ad35735",
       "duration_seconds": 161.575,
-      "missing_scanned_verses": [
-        1,
-        2,
-        3,
-        4
-      ]
+      "missing_scanned_verses": []
     },
     {
       "dasakam": 41,
