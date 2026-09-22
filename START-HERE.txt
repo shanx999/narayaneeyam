@@ -1,0 +1,17 @@
+NARAYANEEYAM - PHONE AND OFFLINE PLAYER
+Recitation: A Narayana Iyer
+
+1. Open the published website in Safari on iPhone, or Chrome on Android.
+2. Add to Home Screen / Install app from the browser's Share button or menu.
+3. Open the new home-screen icon. Select a Dasakam and tap Play.
+4. Tap Save this chapter offline, or open Offline collection and Save all 42 chapters.
+5. Keep the app open until Saved offline appears. Try playback and seeking in airplane mode.
+
+Download AFTER opening from the home-screen icon: on iPhone, the installed app may have separate storage from Safari.
+If a download is interrupted, tap Save again. Completed chapters are skipped.
+The phone can clear website data under storage pressure. If that happens, reconnect and download again.
+A ZIP opened in the phone's Files/Drive app does not install this player. Use the published website link.
+
+Original, Recital aid, and Both use the same audio timings. Turn the phone sideways for two columns; portrait mode stacks the paired lines for readability. A+ and A- adjust the font. Tap any line to replay it.
+
+Text and alignment are a review edition. Please identify chapter and verse when reporting corrections. Meanings are explanatory drafts; available chapters are labelled in the player.
