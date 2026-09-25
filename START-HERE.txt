@@ -4,7 +4,7 @@ Recitation: A Narayana Iyer
 1. Open the published website in Safari on iPhone, or Chrome on Android.
 2. Add to Home Screen / Install app from the browser's Share button or menu.
 3. Open the new home-screen icon. Select a Dasakam and tap Play.
-4. Tap the dark red Save this chapter offline button directly below the Dasakam and Verse selectors. To save everything, open Offline collection below the playback controls and choose Save all 42 chapters.
+4. Tap the dark red Save this chapter offline button directly below the Dasakam and Verse selectors. To save everything, open Offline collection below the playback controls and choose Save all 100 chapters.
 5. Keep the app open until Saved offline appears. Try playback and seeking in airplane mode.
 
 Download AFTER opening from the home-screen icon: on iPhone, the installed app may have separate storage from Safari.
@@ -18,3 +18,5 @@ Text and alignment are a review edition. Please identify chapter and verse when 
 
 DASAKAM 1 OPENING PRAYERS
 Play from the beginning to follow the eight opening prayers, or choose Opening prayer 1–8 in the Verse menu. Next and Previous move between prayers and the numbered verses. The supplied prayer text uses one full-width column in every reading view. Verse 1 begins around 1:15, as before.
+
+COMPLETE COLLECTION: Dasakams 1–100, with all supplied original and recital-aid paragraphs, plus eight opening prayers. The full audio collection is about 530 MB. Optional Malayalam and English meanings are currently available for Dasakams 1–10.

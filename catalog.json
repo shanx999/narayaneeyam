@@ -1,5 +1,5 @@
 {
-  "edition": "2026-09-22",
+  "edition": "2026-09-25",
   "chapters": [
     {
       "dasakam": 1,
@@ -377,6 +377,528 @@
       "audio_bytes": 3185394,
       "audio_sha256": "e1f8611dcb3f51d91a93b42796a147e8ecf545238f6d8cf8d5a0b3157e583822",
       "duration_seconds": 199.087,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 43,
+      "verses": 10,
+      "audio": "audio/dasakam-43.mp3",
+      "audio_bytes": 3263971,
+      "audio_sha256": "71f2767b4e1ce2d7e30801e7e4263a664108fa048963df92f06a562cd3648240",
+      "duration_seconds": 203.998,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 44,
+      "verses": 10,
+      "audio": "audio/dasakam-44.mp3",
+      "audio_bytes": 2624911,
+      "audio_sha256": "023e25622c6a648afbf3f4d325e38a73bfeb36060e50aa6723bdd9f3bd4e1dbc",
+      "duration_seconds": 164.057,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 45,
+      "verses": 10,
+      "audio": "audio/dasakam-45.mp3",
+      "audio_bytes": 3933123,
+      "audio_sha256": "d3c249e245a17ec9c1cf8f20e92634619266e79f3f8f542042c7c3611ad3654d",
+      "duration_seconds": 245.82,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 46,
+      "verses": 10,
+      "audio": "audio/dasakam-46.mp3",
+      "audio_bytes": 2684261,
+      "audio_sha256": "8aa5fe619a01f883b204f3fe70d13491303c861c3388340ac7e6e25c494634cd",
+      "duration_seconds": 167.766,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 47,
+      "verses": 10,
+      "audio": "audio/dasakam-47.mp3",
+      "audio_bytes": 2644137,
+      "audio_sha256": "75025149cca57f642093b5a9dbc95418712bf7bc7cb252952ff59a944603e323",
+      "duration_seconds": 165.259,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 48,
+      "verses": 10,
+      "audio": "audio/dasakam-48.mp3",
+      "audio_bytes": 6043170,
+      "audio_sha256": "dc94d731174546e623527b4160d9414f3abb417cedcc3127ef85f1c5ca03460f",
+      "duration_seconds": 188.817,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 49,
+      "verses": 10,
+      "audio": "audio/dasakam-49.mp3",
+      "audio_bytes": 2863984,
+      "audio_sha256": "7afa8d9538bd27c3c33968bf9857a008b179cbd8b473d4d14b48441a63584aae",
+      "duration_seconds": 178.999,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 50,
+      "verses": 10,
+      "audio": "audio/dasakam-50.mp3",
+      "audio_bytes": 8357828,
+      "audio_sha256": "d8612649b1b1ce013bbee8af3dad71a58ab71f0b0f406d65b4c8e53beafb8575",
+      "duration_seconds": 261.15,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 51,
+      "verses": 10,
+      "audio": "audio/dasakam-51.mp3",
+      "audio_bytes": 3263971,
+      "audio_sha256": "53eac26a922fb98cfedc92e55b144a68e7a91c9c0844c43b5bc51bd3879ba5fa",
+      "duration_seconds": 203.998,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 52,
+      "verses": 10,
+      "audio": "audio/dasakam-52.mp3",
+      "audio_bytes": 3380163,
+      "audio_sha256": "9fd3f21ad1e263a34dc800a28cd58c262daf3681a4055fb13e81e1bda6adc7b1",
+      "duration_seconds": 211.26,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 53,
+      "verses": 10,
+      "audio": "audio/dasakam-53.mp3",
+      "audio_bytes": 5492300,
+      "audio_sha256": "d0c046ee8317df64f34864423a6817d52438ac94ec156b378c7b3160526b5bc2",
+      "duration_seconds": 171.602,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 54,
+      "verses": 10,
+      "audio": "audio/dasakam-54.mp3",
+      "audio_bytes": 3214652,
+      "audio_sha256": "21910c1bfc9da86f126645e4d9e9eabb39bdaa40c77bc326c3ef8f158944106a",
+      "duration_seconds": 200.916,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 55,
+      "verses": 10,
+      "audio": "audio/dasakam-55.mp3",
+      "audio_bytes": 6966860,
+      "audio_sha256": "5d65daad5d59cbf732c75d1f4a8a07034103bc68579eef633cf8386dde0b8945",
+      "duration_seconds": 217.682,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 56,
+      "verses": 10,
+      "audio": "audio/dasakam-56.mp3",
+      "audio_bytes": 3008180,
+      "audio_sha256": "3f8654de4780fd1c7ecc016d2520c32bc2bccd3c1aff19cd9cfe14c01c4aebd8",
+      "duration_seconds": 188.011,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 57,
+      "verses": 11,
+      "audio": "audio/dasakam-57.mp3",
+      "audio_bytes": 2639122,
+      "audio_sha256": "5d72eff55cb990483fc6653f190302a96c1368c90bf0e5ce3500bc739bbb69ba",
+      "duration_seconds": 164.945,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 58,
+      "verses": 10,
+      "audio": "audio/dasakam-58.mp3",
+      "audio_bytes": 3556542,
+      "audio_sha256": "803c1e1566e27de8b508876ffef83b3bf1935e92fb949835ad71f37756ae9e6a",
+      "duration_seconds": 222.284,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 59,
+      "verses": 10,
+      "audio": "audio/dasakam-59.mp3",
+      "audio_bytes": 2649153,
+      "audio_sha256": "5bcfc70a78f789a94958ea53721c9fe13abaf09768188da13ec3e9864f46e3dd",
+      "duration_seconds": 165.572,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 60,
+      "verses": 11,
+      "audio": "audio/dasakam-60.mp3",
+      "audio_bytes": 3072545,
+      "audio_sha256": "5e8568d391509cb7118f974c30e4f8faecb35f5d81a5c064c69f93ed468743ff",
+      "duration_seconds": 192.034,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 61,
+      "verses": 10,
+      "audio": "audio/dasakam-61.mp3",
+      "audio_bytes": 2977251,
+      "audio_sha256": "9da5100436f52055d0b84040a75d274e4eacea5c8a58877eda0ae7f304ca1e1f",
+      "duration_seconds": 186.078,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 62,
+      "verses": 10,
+      "audio": "audio/dasakam-62.mp3",
+      "audio_bytes": 8261697,
+      "audio_sha256": "705b8f223652782cd6380acdf8bb1afa6b279c2168a143104ee1ed70aa796381",
+      "duration_seconds": 258.146,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 63,
+      "verses": 10,
+      "audio": "audio/dasakam-63.mp3",
+      "audio_bytes": 6320695,
+      "audio_sha256": "efd92bf3c3272966144f26814547f762f0d2e1282ea6ef2a25bd580e2a1d6a58",
+      "duration_seconds": 197.49,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 64,
+      "verses": 10,
+      "audio": "audio/dasakam-64.mp3",
+      "audio_bytes": 2866910,
+      "audio_sha256": "0679d2645ef257fde2bcaa6cc26fc7a8811ad386f44b94028000ced08a1f141a",
+      "duration_seconds": 179.182,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 65,
+      "verses": 9,
+      "audio": "audio/dasakam-65.mp3",
+      "audio_bytes": 3105564,
+      "audio_sha256": "08419d25fb97ecda46857b0773975fa14e60273880c44eae0e451d7fbf08e80b",
+      "duration_seconds": 194.098,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 66,
+      "verses": 10,
+      "audio": "audio/dasakam-66.mp3",
+      "audio_bytes": 2512062,
+      "audio_sha256": "d47e7c2b648a4e9be900a197f3db8b89afba78f318df308d51634928f251aaee",
+      "duration_seconds": 157.004,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 67,
+      "verses": 10,
+      "audio": "audio/dasakam-67.mp3",
+      "audio_bytes": 2788751,
+      "audio_sha256": "19994f6ba4bf8a30fae95013c798ae62a8f23f964f68d78561862d410f54a8d0",
+      "duration_seconds": 174.297,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 68,
+      "verses": 10,
+      "audio": "audio/dasakam-68.mp3",
+      "audio_bytes": 4617741,
+      "audio_sha256": "188d86fe205e37388add597ea583443fd1c659b9cbf98653c32c02390d81890e",
+      "duration_seconds": 288.609,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 69,
+      "verses": 11,
+      "audio": "audio/dasakam-69.mp3",
+      "audio_bytes": 6084777,
+      "audio_sha256": "dafe64a03d74cb870976410aa4a9855f88c09595756562863106fc44def33c58",
+      "duration_seconds": 380.299,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 70,
+      "verses": 10,
+      "audio": "audio/dasakam-70.mp3",
+      "audio_bytes": 3357594,
+      "audio_sha256": "64c676f7e943cc5b38b6e4b820854b95edbaceb42a13a40dbecc3f994ec08421",
+      "duration_seconds": 209.85,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 71,
+      "verses": 10,
+      "audio": "audio/dasakam-71.mp3",
+      "audio_bytes": 2918319,
+      "audio_sha256": "7b9e26fc5cb79f3b8b7f1ca81bebfd0e2b8e411d7a3769be5cbb25431b2a1867",
+      "duration_seconds": 182.395,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 72,
+      "verses": 12,
+      "audio": "audio/dasakam-72.mp3",
+      "audio_bytes": 4292568,
+      "audio_sha256": "eb3e93baf3c9d2d0940f0d082e08b73cd4c09483c51ea447057e5b331eaeada9",
+      "duration_seconds": 268.286,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 73,
+      "verses": 10,
+      "audio": "audio/dasakam-73.mp3",
+      "audio_bytes": 3240983,
+      "audio_sha256": "f52a52b6c8d8fbcc4a341ae7cd0605ba4b8c8d4b31102ba2204f1d2d0689b795",
+      "duration_seconds": 202.561,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 74,
+      "verses": 10,
+      "audio": "audio/dasakam-74.mp3",
+      "audio_bytes": 10419203,
+      "audio_sha256": "c77b237acae4958fba25bddd6950e67e3a4755691705670164b1e1fb60f371c9",
+      "duration_seconds": 325.568,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 75,
+      "verses": 10,
+      "audio": "audio/dasakam-75.mp3",
+      "audio_bytes": 5588660,
+      "audio_sha256": "cd1fdcdbf5ed523438bc27a2bf02a5d51820a609ae6af35d769157909effa0b2",
+      "duration_seconds": 349.291,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 76,
+      "verses": 11,
+      "audio": "audio/dasakam-76.mp3",
+      "audio_bytes": 5199122,
+      "audio_sha256": "50f3bb69f3c7f9c4f7e04d8f178eeb366f3f0e7633793e1527d582d542169a35",
+      "duration_seconds": 324.945,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 77,
+      "verses": 12,
+      "audio": "audio/dasakam-77.mp3",
+      "audio_bytes": 4491517,
+      "audio_sha256": "061be80a09119edd8b32e6dc5920187ac5ce02263006ada824def21667129ef5",
+      "duration_seconds": 280.72,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 78,
+      "verses": 10,
+      "audio": "audio/dasakam-78.mp3",
+      "audio_bytes": 2712265,
+      "audio_sha256": "8cb4308d6c4ac2619a1cbee4605a7498a71e71ffac0f74fccb17d03ea4559316",
+      "duration_seconds": 169.517,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 79,
+      "verses": 12,
+      "audio": "audio/dasakam-79.mp3",
+      "audio_bytes": 3254358,
+      "audio_sha256": "c460e52037219b829547f243d6eb2d9d0c8261476af63309ea872fad1d7f3373",
+      "duration_seconds": 203.397,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 80,
+      "verses": 11,
+      "audio": "audio/dasakam-80.mp3",
+      "audio_bytes": 4058929,
+      "audio_sha256": "d6c725b9fdc3dea18f15115c7e96d53b1fd23261aceae08ed586445a8b241919",
+      "duration_seconds": 253.683,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 81,
+      "verses": 10,
+      "audio": "audio/dasakam-81.mp3",
+      "audio_bytes": 4833825,
+      "audio_sha256": "833c64c6ffa2eedb9366d18b5ab184a18d2661373b06281fa1ef4d3c0981892f",
+      "duration_seconds": 302.114,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 82,
+      "verses": 10,
+      "audio": "audio/dasakam-82.mp3",
+      "audio_bytes": 4330603,
+      "audio_sha256": "82efab17ef4b0d7abe27501f8a2f4f6ea5920f706d7eed8f9e9f1da1a229d091",
+      "duration_seconds": 270.663,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 83,
+      "verses": 10,
+      "audio": "audio/dasakam-83.mp3",
+      "audio_bytes": 7520238,
+      "audio_sha256": "6a9a86f3e6b767e87668043fada677d0da594f5a565edf4e7e1fd8f894a156d6",
+      "duration_seconds": 234.975,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 84,
+      "verses": 11,
+      "audio": "audio/dasakam-84.mp3",
+      "audio_bytes": 6497910,
+      "audio_sha256": "c6e44af7b8e04b54a5ba9ea08c8898b6519a085fa3384ec7de6a6ab4071b133e",
+      "duration_seconds": 203.028,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 85,
+      "verses": 11,
+      "audio": "audio/dasakam-85.mp3",
+      "audio_bytes": 4295076,
+      "audio_sha256": "41ac0ced8f35d576f3b1e3bef52626fb25d71c908cbf82fcc70abaecc3da4cd6",
+      "duration_seconds": 268.442,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 86,
+      "verses": 11,
+      "audio": "audio/dasakam-86.mp3",
+      "audio_bytes": 5939745,
+      "audio_sha256": "8401a671f223e626f083fa8dc113fd42cf35cfbc0220a7b93939a1e5d5babb48",
+      "duration_seconds": 371.234,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 87,
+      "verses": 10,
+      "audio": "audio/dasakam-87.mp3",
+      "audio_bytes": 3091354,
+      "audio_sha256": "fdf62cbdea9b0b6d8c0ea014cad4224f9655997addedbef34f0bd7511629c5a3",
+      "duration_seconds": 193.21,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 88,
+      "verses": 12,
+      "audio": "audio/dasakam-88.mp3",
+      "audio_bytes": 6061372,
+      "audio_sha256": "ed8d51bf0e6fd8019d9ab2e2857aaf97a3ea21e2510fe78d456461e9d807c135",
+      "duration_seconds": 378.836,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 89,
+      "verses": 10,
+      "audio": "audio/dasakam-89.mp3",
+      "audio_bytes": 3921421,
+      "audio_sha256": "a7ce0143e268c3063c8981e423b84477f5bbe4e3505580d2bf8ab77c676b0172",
+      "duration_seconds": 245.089,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 90,
+      "verses": 11,
+      "audio": "audio/dasakam-90.mp3",
+      "audio_bytes": 7353890,
+      "audio_sha256": "27873cf2f04300133624815fa6956b33eaa11fcb1e480aae9aad928bd6244567",
+      "duration_seconds": 229.777,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 91,
+      "verses": 10,
+      "audio": "audio/dasakam-91.mp3",
+      "audio_bytes": 5317404,
+      "audio_sha256": "92f5e5c495a96f5701f9161ca2c23df5ca36514ffd3d0c63ff42e2ed79e7264e",
+      "duration_seconds": 332.338,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 92,
+      "verses": 10,
+      "audio": "audio/dasakam-92.mp3",
+      "audio_bytes": 10567160,
+      "audio_sha256": "faa3e2c928131314f0486e51c0625739eb1bfed3a6c8206af97788c3c9ca52e9",
+      "duration_seconds": 330.192,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 93,
+      "verses": 10,
+      "audio": "audio/dasakam-93.mp3",
+      "audio_bytes": 10685861,
+      "audio_sha256": "375c0eba6db9b0ef2ed391abe47c86ce44ad820428b81f7175f622ec8ab5ec19",
+      "duration_seconds": 333.901,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 94,
+      "verses": 10,
+      "audio": "audio/dasakam-94.mp3",
+      "audio_bytes": 11474968,
+      "audio_sha256": "f8cd045ee9f2921b903c225649b5f3acebfddc70a671f301fc2b6da49cad19de",
+      "duration_seconds": 358.561,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 95,
+      "verses": 10,
+      "audio": "audio/dasakam-95.mp3",
+      "audio_bytes": 12433766,
+      "audio_sha256": "87ffa3a4d23fe4a75e32b4321f103be3471882876b1d772257cbab59d86f5454",
+      "duration_seconds": 388.523,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 96,
+      "verses": 10,
+      "audio": "audio/dasakam-96.mp3",
+      "audio_bytes": 12105250,
+      "audio_sha256": "ad4d885164b4c58f608cb2d3c57decde4a900e34d9802aa0fd33d072ef7a56c5",
+      "duration_seconds": 378.257,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 97,
+      "verses": 10,
+      "audio": "audio/dasakam-97.mp3",
+      "audio_bytes": 5734110,
+      "audio_sha256": "83b0ee44b7f2cf2086415a3eeda69bf202d5316f0fe241abd2a704cc85293cd8",
+      "duration_seconds": 358.382,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 98,
+      "verses": 11,
+      "audio": "audio/dasakam-98.mp3",
+      "audio_bytes": 6299608,
+      "audio_sha256": "f860d0c75527845dd94eb4f14e28979f36f938797dd4f2363c16b48bfbdcf941",
+      "duration_seconds": 393.726,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 99,
+      "verses": 10,
+      "audio": "audio/dasakam-99.mp3",
+      "audio_bytes": 11331190,
+      "audio_sha256": "1d89769a92338520297639ecb908b295246dd795def4b1ae454024eb6ce004fa",
+      "duration_seconds": 354.068,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 100,
+      "verses": 11,
+      "audio": "audio/dasakam-100.mp3",
+      "audio_bytes": 15728120,
+      "audio_sha256": "873f0c82a0651618ca8df9b1d4fdf0083d95a7a04005baa5f1083f3607cc4cc0",
+      "duration_seconds": 491.472,
       "missing_scanned_verses": []
     }
   ]

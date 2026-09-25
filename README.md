@@ -1,16 +1,16 @@
 # Narayaneeyam — A Narayana Iyer
 
-A large-print reading and listening player for Dasakams 1–42, with original Sanskrit in Malayalam script, a separated-word recital aid, and synchronized highlighting.
+A large-print reading and listening player for Dasakams 1–100, with original Sanskrit in Malayalam script, a separated-word recital aid, and synchronized highlighting.
 
 Open: https://shanx999.github.io/narayaneeyam/
 
 ## Phone installation
 
-Open in Safari (iPhone) or Chrome (Android), add to the home screen, and open the new icon. Save individual chapters or all 42 recordings from inside the installed player. Keep it open until saving completes, then test in airplane mode. A ZIP viewed in Files or Google Drive is not an app installation.
+Open in Safari (iPhone) or Chrome (Android), add to the home screen, and open the new icon. Save individual chapters or all 100 recordings from inside the installed player. Keep it open until saving completes, then test in airplane mode. A ZIP viewed in Files or Google Drive is not an app installation.
 
 ## Completeness
 
-42 recordings and 436 verse entries. The scans cover both paragraphs for all 436 verses. The supplementary NAR-pg102.pdf completes Dasakam 40, verses 1–4; both paragraphs were visually proofread and matched to the existing recording. All overlapping verses appear once. One identical PDF duplicate was excluded. See completeness.html.
+100 recordings and 1,034 verse entries in this scan edition, plus eight opening prayers. Both reading forms are included for every numbered verse. The supplementary NAR-pg102.pdf completes Dasakam 40, verses 1–4; both paragraphs were visually proofread and matched to the existing recording. All overlapping verses appear once. One identical earlier PDF duplicate was excluded. New scans 43–100 comprise 158 PDF pages; repeated pages and verse overlaps were consolidated into 598 additional entries. See completeness.html.
 
 Text and audio timings are a review edition. Chapters 1–10 include optional Malayalam and English explanatory drafts; later meanings are not yet included.
 

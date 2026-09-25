@@ -1,0 +1,7 @@
+'use strict';
+const chooser=document.getElementById('videoChapter'),movie=document.getElementById('movie'),playVideo=document.getElementById('playVideo'),statusText=document.getElementById('videoStatus');
+for(let n=1;n<=100;n++){const option=document.createElement('option');option.value=n;option.textContent='Dasakam '+n;chooser.append(option)}
+const requested=Number(new URLSearchParams(location.search).get('chapter'));if(Number.isInteger(requested)&&requested>=1&&requested<=100)chooser.value=requested;
+function selectedVideo(){return 'https://github.com/shanx999/narayaneeyam/releases/download/v2026.09.25/Narayaneeyam-Dasakam-'+String(chooser.value).padStart(3,'0')+'.mp4'}
+function choose(){movie.pause();movie.removeAttribute('src');movie.load();movie.hidden=true;document.getElementById('videoDownload').href=selectedVideo();document.getElementById('audioDownload').href='audio/dasakam-'+String(chooser.value).padStart(2,'0')+'.mp3';statusText.textContent='Dasakam '+chooser.value+' selected. Tap Play video.'}
+chooser.addEventListener('change',choose);playVideo.addEventListener('click',()=>{movie.src=selectedVideo();movie.hidden=false;statusText.textContent='Loading Dasakam '+chooser.value+'…';movie.play().catch(()=>{statusText.textContent='Tap the video’s Play control, or use Download this video.'})});movie.addEventListener('playing',()=>{statusText.textContent='Playing Dasakam '+chooser.value});movie.addEventListener('error',()=>{statusText.textContent='The video could not load. Check your connection or use Download this video.'});choose();
