@@ -1,0 +1,23 @@
+{
+  "edition": "2026-09-29-gujarati-pilot",
+  "chapters": [
+    {
+      "dasakam": 1,
+      "verses": 10,
+      "audio": "../audio/dasakam-01.mp3",
+      "audio_bytes": 6226465,
+      "audio_sha256": "c45a1327293d3d3a76dee24cd04375dc2fd3b2a907d50da868b27aa21e3cf8ee",
+      "duration_seconds": 389.154,
+      "missing_scanned_verses": []
+    },
+    {
+      "dasakam": 2,
+      "verses": 10,
+      "audio": "../audio/dasakam-02.mp3",
+      "audio_bytes": 4805822,
+      "audio_sha256": "076d40a0e4ab023e630b693b36afc9c36cd18ce326c36a8df9e9efd740a3faa5",
+      "duration_seconds": 300.364,
+      "missing_scanned_verses": []
+    }
+  ]
+}
