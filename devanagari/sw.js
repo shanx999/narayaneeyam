@@ -1,5 +1,5 @@
 'use strict';
-const SHELL='narayaneeyam-deva-shell-20260930-1',AUDIO='narayaneeyam-audio-v1';
+const SHELL='narayaneeyam-deva-shell-20260930-2',AUDIO='narayaneeyam-audio-v1';
 const BASE=new URL('./',self.location.href).href;
 const CHAPTERS=Array.from({length:100},(_,i)=>String(i+1).padStart(2,'0'));
 const ASSETS=["./", "index.html", "style.css", "app.js", "reader.js", "manifest.webmanifest", "catalog.json", "Devanagari-Dasakams-1-100.txt", "assets/portrait.png", "assets/malayalam.ttf", "assets/devanagari.ttf", "assets/OFL-Devanagari.txt", "assets/icon.svg", "assets/icon-192.png", "assets/icon-512.png", ...CHAPTERS.map(n=>"chapters/"+n+".json")];
