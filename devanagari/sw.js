@@ -1,8 +1,9 @@
 'use strict';
-const SHELL='narayaneeyam-deva-shell-20260929-1',AUDIO='narayaneeyam-audio-v1';
+const SHELL='narayaneeyam-deva-shell-20260930-1',AUDIO='narayaneeyam-audio-v1';
 const BASE=new URL('./',self.location.href).href;
-const ASSETS=["./", "index.html", "style.css", "app.js", "reader.js", "manifest.webmanifest", "catalog.json", "Devanagari-Dasakams-1-2.txt", "assets/portrait.png", "assets/malayalam.ttf", "assets/devanagari.ttf", "assets/OFL-Devanagari.txt", "assets/icon.svg", "assets/icon-192.png", "assets/icon-512.png", "chapters/01.json", "chapters/02.json"];
-const AUDIO_URLS=[1,2].map(n=>new URL("../audio/dasakam-0"+n+".mp3",BASE).href);
+const CHAPTERS=Array.from({length:100},(_,i)=>String(i+1).padStart(2,'0'));
+const ASSETS=["./", "index.html", "style.css", "app.js", "reader.js", "manifest.webmanifest", "catalog.json", "Devanagari-Dasakams-1-100.txt", "assets/portrait.png", "assets/malayalam.ttf", "assets/devanagari.ttf", "assets/OFL-Devanagari.txt", "assets/icon.svg", "assets/icon-192.png", "assets/icon-512.png", ...CHAPTERS.map(n=>"chapters/"+n+".json")];
+const AUDIO_URLS=CHAPTERS.map(n=>new URL("../audio/dasakam-"+n+".mp3",BASE).href);
 self.addEventListener('install',event=>event.waitUntil((async()=>{const c=await caches.open(SHELL);await c.addAll(ASSETS.map(p=>new Request(new URL(p,BASE).href,{cache:'reload'})));await self.skipWaiting()})()));
 self.addEventListener('activate',event=>event.waitUntil((async()=>{for(const k of await caches.keys())if(k.startsWith('narayaneeyam-deva-shell-')&&k!==SHELL)await caches.delete(k);await self.clients.claim()})()));
 async function ranged(response,header){if(!header)return response;const blob=await response.blob(),size=blob.size,m=/^bytes=(\d*)-(\d*)$/.exec(header.trim());if(!m||(!m[1]&&!m[2]))return new Response(null,{status:416,headers:{'Content-Range':'bytes */'+size}});let start=m[1]?Number(m[1]):Math.max(0,size-Number(m[2])),end=m[1]?(m[2]?Number(m[2]):size-1):size-1;if(start>=size||end<start)return new Response(null,{status:416,headers:{'Content-Range':'bytes */'+size}});end=Math.min(end,size-1);return new Response(blob.slice(start,end+1),{status:206,headers:{'Content-Type':'audio/mpeg','Content-Length':String(end-start+1),'Content-Range':`bytes ${start}-${end}/${size}`,'Accept-Ranges':'bytes'}})}

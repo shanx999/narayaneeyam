@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "Narayaneeyam · Devanagari pilot",
+  "name": "Narayaneeyam · Devanagari",
   "short_name": "Narayaneeyam Deva",
-  "description": "Dasakams 1 and 2 in Devanagari and Malayalam, with synchronized audio.",
+  "description": "All 100 Dasakams in Devanagari and Malayalam, with synchronized audio.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
