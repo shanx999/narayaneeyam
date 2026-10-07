@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#703528"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Narayaneeyam Sample">
+<title>Narayaneeyam · Malayalam sample · Underline or highlight</title>
+<link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="assets/icon-192.png"><link rel="icon" href="assets/icon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"><script src="app.js" defer></script>
+</head>
+<body><main>
+<header>
+ <div class="portrait"><img src="assets/portrait.png" alt="A Narayana Iyer reading" width="80" height="80"><p class="credit ml" lang="ml">പാരായണം :<br>എ നാരായണ അയ്യർ</p><p class="credit">Recitation:<br>A Narayana Iyer</p></div>
+ <div><h1 lang="ml" class="ml">നാരായണീയം</h1><p class="subtitle">Malayalam sample · Dasakam 1</p><p class="intro">Choose how the spoken words are marked.</p><div class="header-links"><button id="copyLink" class="quiet">Copy link</button><button id="install" class="quiet">Add to home screen</button></div><p id="shareStatus" class="small" role="status"></p></div>
+</header>
+<section id="transport" aria-label="Playback controls">
+ <label>Dasakam<select id="chapter" aria-label="Dasakam"></select></label>
+ <label>Verse<select id="verse" aria-label="Verse"></select></label>
+ <button id="play" class="primary">▶ Play</button>
+ <div class="marking-control"><span>Word marking</span><div id="markingStyle" role="group" aria-label="Word marking"><button id="underline" aria-pressed="true">Underline</button><button id="highlight" aria-pressed="false">Highlight</button></div></div>
+</section>
+<p class="sample-note">Choose <b>Underline</b> for a dark line under the spoken words, or <b>Highlight</b> for a coloured background. You can switch while listening.</p>
+<div class="reading-tools">
+ <div class="buttons views" aria-label="Reading view"><button id="original" aria-pressed="false">Original</button><button id="recital" aria-pressed="false">Recital aid</button><button id="both" aria-pressed="true">Both</button><button id="smaller" aria-label="Smaller text">A−</button><button id="larger" aria-label="Larger text">A+</button></div>
+ <label class="check"><input id="follow" type="checkbox" checked> Follow the recitation</label>
+ <audio id="audio" controls preload="metadata" crossorigin="anonymous"></audio>
+ <div class="buttons navigation"><button id="previous" aria-label="Previous verse">← Previous</button><button id="replay" aria-label="Replay verse">↶ Replay</button><button id="next" aria-label="Next verse">Next →</button></div>
+</div>
+<p id="status" role="status" aria-live="polite"></p>
+<div id="updateNotice" hidden><span>An updated edition is ready.</span> <button id="refresh">Open update</button></div>
+<details id="options" class="panel"><summary>Reading options &amp; meanings</summary>
+ <div class="script-control"><button id="fullscreen">Full screen</button></div>
+ <div class="translation-controls"><b>Show meanings below the verse</b><div><label class="check"><input id="ml" type="checkbox"> Malayalam</label><label class="check"><input id="en" type="checkbox"> English</label></div><p id="meaningAvailability" class="small"></p></div>
+</details>
+<div id="opening">Loading the reading player…</div>
+<section id="reader" class="mode-both" data-marking="underline" hidden>
+ <h2 id="heading"></h2><p id="sourceNotice" class="source-notice" hidden>The separated-word scan for this verse is unavailable. Original text and audio remain available.</p>
+ <div class="column-headings"><h3 class="original" id="originalHeading">Original Sanskrit · Malayalam script</h3><h3 class="recital">Recital aid · Separated words</h3></div><div id="pairs"></div>
+</section>
+<section id="meanings" hidden><h3 id="meaningTitle"></h3><p id="meaningMl" class="ml" lang="ml"></p><p id="meaningEn"></p></section>
+<section class="offline-panel panel" aria-label="Save for offline listening">
+ <div class="save-panel"><button id="save" class="primary">↓ Save this chapter offline</button><span id="saved" role="status"></span><progress id="progress" max="100" value="0" hidden></progress><p id="downloadStatus" role="status" aria-live="polite"></p><button id="cancelDownload" hidden>Stop download</button></div>
+ <details><summary>Saved recordings</summary><p id="storageStatus">Checking saved chapters…</p><p class="small">This sample uses the same Dasakam 1 recording as the full collection. An existing offline download is reused.</p><button id="remove" class="quiet">Remove this chapter’s offline recording</button></details>
+</section>
+<details id="help" class="panel"><summary>Phone installation &amp; help</summary><ol><li>Open this link in <b>Safari on iPhone</b> or <b>Chrome on Android</b>.</li><li>iPhone: tap Share, then <b>Add to Home Screen</b>. Android: open the browser menu and choose <b>Install app</b> or <b>Add to Home screen</b>.</li><li>Use <b>Save this chapter offline</b> below the verse. Keep the app open until it says <b>Saved offline</b>. Test playback once in airplane mode.</li></ol><p>The <b>Underline</b> and <b>Highlight</b> buttons stay at the top during playback. Your choice is remembered on this device and applies to Original and Recital Aid together.</p><p><b>Follow the recitation</b> keeps the spoken words in view. Turn it off to browse freely. Tap a line to replay it. Use <b>A+</b> for larger text. Turn your phone sideways for two columns.</p><p>If your phone clears saved website data, download the recording again.</p><p><a href="https://shanx999.github.io/narayaneeyam/malayalam-sample/">Malayalam sample</a> · <a href="../">Full Malayalam collection</a></p></details>
+<footer><p>Malayalam sample · 7 October 2026. Dasakam 1, with the original recording, text and timing. Malayalam and English meanings are explanatory drafts awaiting review.</p><p><a href="../">Full Malayalam collection · 100 Dasakams</a></p><p>Preferences and offline recordings stay on your device. No sign-in or listener tracking.</p></footer>
+</main></body></html>

@@ -1,0 +1,25 @@
+{
+  "id": "./",
+  "name": "Narayaneeyam · Malayalam sample",
+  "short_name": "Narayaneeyam Sample",
+  "description": "Dasakam 1 in Malayalam, with a choice of underlining or coloured highlighting during recitation.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#faf5e9",
+  "theme_color": "#703528",
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
