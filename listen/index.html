@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#faf5e9">
+<meta name="description" content="Listen to all 100 Narayaneeyam Dasakams recited by A Narayana Iyer. Choose Malayalam or Devanagari script for the original text and recital aid.">
+<title>Narayaneeyam · Malayalam &amp; Devanagari · 100 Dasakams</title>
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+<script src="app.js" defer></script>
+</head>
+<body><main id="streamingEdition">
+<header id="masthead" class="masthead">
+ <img src="assets/portrait.png" alt="A Narayana Iyer reading" width="56" height="56">
+ <div><h1 id="bookTitle" lang="ml" class="ml">നാരായണീയം</h1><p class="subtitle">Narayaneeyam · 100 Dasakams</p></div>
+ <div class="credits"><p class="credit ml" lang="ml">പാരായണം : എ നാരായണ അയ്യർ</p><p class="credit">Recitation: A Narayana Iyer</p></div>
+ <label class="script-choice">Script<select id="script" aria-label="Reading script"></select></label>
+</header>
+<section id="transport" aria-label="Reading controls">
+ <div class="selectors">
+  <label>Dasakam<select id="chapter" aria-label="Dasakam" disabled></select></label>
+  <label>Verse<select id="verse" aria-label="Verse" disabled></select></label>
+  <button id="openOptions" aria-haspopup="dialog" aria-controls="options">Options</button>
+ </div>
+ <div class="views" role="group" aria-label="Reading view"><button id="original" aria-pressed="false">Original</button><button id="recital" aria-pressed="true">Recital aid</button><button id="both" aria-pressed="false">Both</button></div>
+</section>
+<div class="status-panel"><p id="status" role="status" aria-live="polite"></p><button id="retry" hidden>Try again</button></div>
+<div id="opening" role="status">Loading the reading player…</div>
+<section id="reader" class="mode-recital" data-marking="underline" hidden>
+ <h2 id="heading"></h2><p id="sourceNotice" class="source-notice" hidden>The separated-word scan for this verse is unavailable. Original text and audio remain available.</p>
+ <div class="column-headings"><h3 class="original" id="originalHeading">Original Sanskrit · Malayalam script</h3><h3 class="recital">Recital aid · Separated words</h3></div><div id="pairs"></div>
+</section>
+<section id="meanings" hidden><h3 id="meaningTitle"></h3><p id="meaningMl" class="ml" lang="ml"></p><p id="meaningEn"></p></section>
+<details id="help" class="panel"><summary>How to listen &amp; read</summary>
+ <p>Choose a <b>Dasakam</b>, then tap <b>Play</b> at the bottom. Choose a verse to jump to it, or tap a text line to hear it again.</p>
+ <p><b>Original</b> and <b>Recital aid</b> each use the full reading width. Choose <b>Both</b> to compare them. Turn your phone sideways to see them side by side.</p>
+ <p>Choose <b>Malayalam</b> or <b>Devanagari</b> under <b>Script</b> at the top, or inside <b>Options</b>. This changes both reading views and keeps the recording at the same place.</p>
+ <p>Open <b>Options</b> to choose underlining or highlighting, enlarge the text, show meanings or turn automatic following off.</p>
+ <p>On Android, use Chrome. On iPhone, use Safari. This edition plays online and needs an internet connection.</p>
+</details>
+<footer><p>1,034 verses and eight opening prayers. Text and timing are a review edition. Meanings for Dasakams 1–10 are explanatory drafts awaiting review.</p><p>Your reading choices and listening position stay on this device. No sign-in or listener tracking.</p></footer>
+<noscript><p>Please enable JavaScript in your browser to use the reading player.</p></noscript>
+</main>
+<section id="playerDock" aria-label="Audio playback">
+ <div class="player-inner">
+  <audio id="audio" preload="metadata" controlslist="nodownload" hidden></audio>
+  <div class="timeline"><span id="elapsed" aria-hidden="true">0:00</span><input id="seek" type="range" aria-label="Recording position" min="0" max="1" step="0.1" value="0" disabled aria-valuetext="0:00"><span id="duration" aria-hidden="true">0:00</span></div>
+  <div class="playback-buttons"><button id="previous" aria-label="Previous verse" disabled>Previous</button><button id="play" class="primary" disabled>▶ Play</button><button id="next" aria-label="Next verse" disabled>Next</button></div>
+ </div>
+</section>
+<dialog id="options" aria-labelledby="optionsTitle">
+ <div class="dialog-top"><h2 id="optionsTitle">Reading options</h2><button id="closeOptions" autofocus aria-label="Close reading options">Done</button></div>
+ <div class="settings-content">
+  <fieldset><legend>Reading script</legend><select id="scriptOptions" aria-label="Reading script in options"></select><p class="small">Applies to Original and Recital Aid. These are two scripts for the same Sanskrit recitation.</p></fieldset>
+  <fieldset><legend>Word marking</legend><div id="markingStyle" class="buttons" role="group" aria-label="Word marking"><button id="underline" aria-pressed="true">Underline</button><button id="highlight" aria-pressed="false">Highlight</button></div></fieldset>
+  <fieldset><legend>Text size</legend><div class="buttons"><button id="smaller" aria-label="Smaller text">A−</button><span id="textSize" aria-live="polite"></span><button id="larger" aria-label="Larger text">A+</button></div></fieldset>
+  <label class="check"><input id="follow" type="checkbox" checked> Follow the recitation</label>
+  <p class="small">The screen follows the spoken words. Turn this off to scroll freely while listening.</p>
+  <fieldset><legend>Show meanings</legend><div class="meaning-toggles"><label class="check"><input id="ml" type="checkbox"> Malayalam</label><label class="check"><input id="en" type="checkbox"> English</label></div><p id="meaningAvailability" class="small"></p></fieldset>
+  <p class="small">In <b>Both</b> view, turn your phone sideways for two columns.</p>
+  <div class="buttons extra-options"><button id="replay" aria-label="Replay verse" disabled>↶ Replay verse</button><button id="fullscreen">Full screen</button><button id="copyLink">Copy link</button></div>
+  <p id="shareStatus" class="small" role="status"></p>
+ </div>
+</dialog>
+</body></html>

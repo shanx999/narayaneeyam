@@ -4,6 +4,21 @@ A large-print reading and listening player for Dasakams 1–100, with original S
 
 Open: https://shanx999.github.io/narayaneeyam/
 
+## Streaming reader — Malayalam and Devanagari
+
+Open: https://shanx999.github.io/narayaneeyam/listen/
+
+This additional phone-first edition includes all 100 chapters. Choose a script
+at the top or in Options; both Original and Recital Aid change without restarting
+the audio. It retains the underline/highlight choice and automatic following,
+with no line captions, download buttons or offline-saving workflow. The existing
+editions and their saved recordings remain available.
+
+The scoped streaming worker forwards requests to the network and does not read
+or write offline caches. It also recovers visits intercepted by an older parent
+worker. Text and audio can still be copied or captured by a browser; this is not
+copy protection. Meanings remain optional explanatory drafts for chapters 1–10.
+
 ## Phone installation
 
 Open in Safari (iPhone) or Chrome (Android), add to the home screen, and open the new icon. Save individual chapters or all 100 recordings from inside the installed player. Keep it open until saving completes, then test in airplane mode. A ZIP viewed in Files or Google Drive is not an app installation.
