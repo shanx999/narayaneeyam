@@ -1,40 +1,41 @@
 # Narayaneeyam — A Narayana Iyer
 
-A large-print reading and listening player for Dasakams 1–100, with original Sanskrit in Malayalam script, a separated-word recital aid, and synchronized highlighting.
+## Online reading player
 
-Open: https://shanx999.github.io/narayaneeyam/
+**Open: https://shanx999.github.io/narayaneeyam/listen/**
 
-## Streaming reader — Malayalam and Devanagari
+The active phone-friendly edition covers all 100 Dasakams, 1,034 verses and
+eight opening prayers. Choose Malayalam or Devanagari for the Original and
+Recital Aid views, with timed highlighting or underlining and automatic
+following. Changing script preserves the listening position.
 
-Open: https://shanx999.github.io/narayaneeyam/listen/
+This edition needs an internet connection. It has no download buttons,
+file-export links or offline-saving workflow. Meanings remain optional
+Malayalam and English explanatory drafts for Dasakams 1–10.
 
-This additional phone-first edition includes all 100 chapters. Choose a script
-at the top or in Options; both Original and Recital Aid change without restarting
-the audio. It retains the underline/highlight choice and automatic following,
-with no line captions, download buttons or offline-saving workflow. The existing
-editions and their saved recordings remain available.
+## Retired editions
 
-The scoped streaming worker forwards requests to the network and does not read
-or write offline caches. It also recovers visits intercepted by an older parent
-worker. Text and audio can still be copied or captured by a browser; this is not
-copy protection. Meanings remain optional explanatory drafts for chapters 1–10.
+The old Malayalam, Devanagari, Tamil, Gujarati, Telugu and Malayalam sample
+players, and the video/download and completeness pages, redirect to the
+streaming reader. Their former service workers migrate connected home-screen
+players to the active edition and no longer serve cached offline players.
+Previously downloaded copies on a reader's device cannot be withdrawn.
 
-## Phone installation
+The previous downloadable release is unpublished. Text-export files have also
+been removed from the current published site.
 
-Open in Safari (iPhone) or Chrome (Android), add to the home screen, and open the new icon. Save individual chapters or all 100 recordings from inside the installed player. Keep it open until saving completes, then test in airplane mode. A ZIP viewed in Files or Google Drive is not an app installation.
+## Hosting and content
 
-## Completeness
+Static GitHub Pages site served from the main branch root. The active site is
+under `listen/` and uses the shared `audio/` recordings. Source text and fonts
+remain available in the repository to maintain the reader. There is no sign-in,
+third-party analytics or listener tracking. Only reading choices and listening
+position are stored by the streaming reader.
 
-100 recordings and 1,034 verse entries in this scan edition, plus eight opening prayers. Both reading forms are included for every numbered verse. The supplementary NAR-pg102.pdf completes Dasakam 40, verses 1–4; both paragraphs were visually proofread and matched to the existing recording. All overlapping verses appear once. One identical earlier PDF duplicate was excluded. New scans 43–100 comprise 158 PDF pages; repeated pages and verse overlaps were consolidated into 598 additional entries. See completeness.html.
+The repository is public: retiring the earlier website editions is not access
+control or copy protection. Streamed text and audio can still be captured or
+retrieved through a browser or the repository, including its history.
 
-Text and audio timings are a review edition. Chapters 1–10 include optional Malayalam and English explanatory drafts; later meanings are not yet included.
-
-## Opening prayers
-
-Dasakam 1 includes eight selectable opening prayers, transcribed from NAr-introverse.pdf and synchronized to Track00. These appear before the ten numbered verses. Only prayers present in the recorded opening are timed. The supplied single text uses the full reading width in every viewing mode.
-
-## Hosting and storage
-
-Static GitHub Pages site, served from the main branch root. No sign-in, third-party scripts or listener analytics. Reading preferences and complete downloaded audio files stay on the device. A service worker caches text and supplies byte-range responses for offline audio seeking. Browser storage may be cleared under storage pressure.
-
-The published repository includes player assets and recordings only, not source scans or working files. Recordings, portrait and Parayana Sahayi materials remain attributed to their respective owners; no blanket redistribution licence is asserted.
+Text and timings are a review edition. Recordings, portrait and Parayana Sahayi
+materials remain attributed to their respective owners; no blanket
+redistribution licence is asserted.

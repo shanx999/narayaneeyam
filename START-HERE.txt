@@ -1,22 +1,10 @@
-NARAYANEEYAM - PHONE AND OFFLINE PLAYER
+NARAYANEEYAM — ONLINE READING PLAYER
 Recitation: A Narayana Iyer
 
-1. Open the published website in Safari on iPhone, or Chrome on Android.
-2. Add to Home Screen / Install app from the browser's Share button or menu.
-3. Open the new home-screen icon. Select a Dasakam and tap Play.
-4. Tap the dark red Save this chapter offline button directly below the Dasakam and Verse selectors. To save everything, open Offline collection below the playback controls and choose Save all 100 chapters.
-5. Keep the app open until Saved offline appears. Try playback and seeking in airplane mode.
+Open https://shanx999.github.io/narayaneeyam/listen/
 
-Download AFTER opening from the home-screen icon: on iPhone, the installed app may have separate storage from Safari.
-If a download is interrupted, tap Save again. Completed chapters are skipped.
-The phone can clear website data under storage pressure. If that happens, reconnect and download again.
-A ZIP opened in the phone's Files/Drive app does not install this player. Use the published website link.
+Choose Malayalam or Devanagari. All 100 Dasakams include Original and Recital
+Aid views with timed highlighting or underlining. This edition needs an
+internet connection and has no download or offline-save controls.
 
-Original, Recital aid, and Both use the same audio timings. Turn the phone sideways for two columns; portrait mode stacks the paired lines for readability. A+ and A- adjust the font. Tap any line to replay it.
-
-Text and alignment are a review edition. Please identify chapter and verse when reporting corrections. Meanings are explanatory drafts; available chapters are labelled in the player.
-
-DASAKAM 1 OPENING PRAYERS
-Play from the beginning to follow the eight opening prayers, or choose Opening prayer 1–8 in the Verse menu. Next and Previous move between prayers and the numbered verses. The supplied prayer text uses one full-width column in every reading view. Verse 1 begins around 1:15, as before.
-
-COMPLETE COLLECTION: Dasakams 1–100, with all supplied original and recital-aid paragraphs, plus eight opening prayers. The full audio collection is about 530 MB. Optional Malayalam and English meanings are currently available for Dasakams 1–10.
+Earlier editions and download pages have been retired.

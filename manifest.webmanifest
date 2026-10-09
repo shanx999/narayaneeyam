@@ -1,9 +1,9 @@
 {
   "id": "./",
-  "name": "Narayaneeyam \u00b7 A Narayana Iyer",
+  "name": "Narayaneeyam · A Narayana Iyer",
   "short_name": "Narayaneeyam",
-  "description": "Listen and learn with original verses and the Parayana Sahayi.",
-  "start_url": "./",
+  "description": "Online Malayalam and Devanagari reading player.",
+  "start_url": "./listen/",
   "scope": "./",
   "display": "standalone",
   "background_color": "#faf5e9",

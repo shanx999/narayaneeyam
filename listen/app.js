@@ -1,7 +1,7 @@
 'use strict';
 // A legacy worker at the existing collection can return its cached front page
 // for a new nested address. A scoped, network-only worker keeps this edition
-// online and leaves every existing edition's offline recordings intact.
+// online without using cached copies of the retired editions.
 async function openStreaming(){
  const correctPage=!!document.getElementById('streamingEdition');
  if(!correctPage){const message=document.createElement('p');message.textContent='Opening the reading player…';message.setAttribute('role','status');document.body.replaceChildren(message)}

@@ -1,13 +1,27 @@
 'use strict';
-const SHELL='narayaneeyam-telu-shell-20261006-1',AUDIO='narayaneeyam-audio-v1';
-const BASE=new URL('./',self.location.href).href;
-const CHAPTERS=Array.from({length:10},(_,i)=>String(i+1).padStart(2,'0'));
-const ASSETS=["./", "index.html", "style.css", "app.js", "reader.js", "manifest.webmanifest", "catalog.json", "Telugu-Dasakams-1-10.txt", "assets/portrait.png", "assets/malayalam.ttf", "assets/telugu.ttf", "assets/OFL-Telugu.txt", "assets/icon.svg", "assets/icon-192.png", "assets/icon-512.png", ...CHAPTERS.map(n=>"chapters/"+n+".json")];
-const AUDIO_URLS=CHAPTERS.map(n=>new URL("../audio/dasakam-"+n+".mp3",BASE).href);
-self.addEventListener('install',event=>event.waitUntil((async()=>{const c=await caches.open(SHELL);await c.addAll(ASSETS.map(p=>new Request(new URL(p,BASE).href,{cache:'reload'})));await self.skipWaiting()})()));
-self.addEventListener('activate',event=>event.waitUntil((async()=>{for(const k of await caches.keys())if(k.startsWith('narayaneeyam-telu-shell-')&&k!==SHELL)await caches.delete(k);await self.clients.claim()})()));
-async function ranged(response,header){if(!header)return response;const blob=await response.blob(),size=blob.size,m=/^bytes=(\d*)-(\d*)$/.exec(header.trim());if(!m||(!m[1]&&!m[2]))return new Response(null,{status:416,headers:{'Content-Range':'bytes */'+size}});let start=m[1]?Number(m[1]):Math.max(0,size-Number(m[2])),end=m[1]?(m[2]?Number(m[2]):size-1):size-1;if(start>=size||end<start)return new Response(null,{status:416,headers:{'Content-Range':'bytes */'+size}});end=Math.min(end,size-1);return new Response(blob.slice(start,end+1),{status:206,headers:{'Content-Type':'audio/mpeg','Content-Length':String(end-start+1),'Content-Range':`bytes ${start}-${end}/${size}`,'Accept-Ranges':'bytes'}})}
-self.addEventListener('fetch',event=>{const req=event.request;if(req.method!=='GET'||(!req.url.startsWith(BASE)&&!AUDIO_URLS.includes(req.url)))return;const url=new URL(req.url);event.respondWith((async()=>{
- if(url.pathname.endsWith('.mp3')){const c=await caches.open(AUDIO),cached=await c.match(req.url);if(cached)return ranged(cached,req.headers.get('Range'));return fetch(req)}
- const c=await caches.open(SHELL),cached=await c.match(req,{ignoreSearch:true});if(cached)return cached;if(req.mode==='navigate')return (await c.match(new URL('index.html',BASE).href))||fetch(req);return fetch(req);
- })())});
+// Retire the former offline edition without deleting readers' stored copies.
+const ROOT=new URL('../',self.location.href);
+const STREAM=new URL('listen/',ROOT).href;
+function retired(url){
+ const target=new URL(url);
+ return target.origin===ROOT.origin&&target.pathname.startsWith(ROOT.pathname)
+   &&target.pathname!==new URL(STREAM).pathname.slice(0,-1)
+   &&!target.pathname.startsWith(new URL(STREAM).pathname);
+}
+self.addEventListener('install',event=>event.waitUntil(self.skipWaiting()));
+self.addEventListener('activate',event=>event.waitUntil((async()=>{
+ await self.clients.claim();
+ const windows=await self.clients.matchAll({type:'window',includeUncontrolled:true});
+ await Promise.all(windows.filter(client=>retired(client.url)).map(async client=>{
+  try{await client.navigate(STREAM)}catch{/* A closed or offline window can retry on its next visit. */}
+ }));
+})()));
+self.addEventListener('fetch',event=>{
+ const request=event.request;
+ if(request.method!=='GET')return;
+ if(request.mode==='navigate'&&retired(request.url)){
+  event.respondWith(Promise.resolve(Response.redirect(STREAM,302)));return;
+ }
+ // Preserve streaming requests and their Range headers. Do not use old caches.
+ event.respondWith(fetch(request,{cache:'no-store'}));
+});
